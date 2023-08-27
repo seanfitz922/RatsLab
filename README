@@ -1,0 +1,23 @@
+Rat Breeding Simulation
+
+This code simulates a rat breeding program where genetic mutations and selection pressures influence the weight of the rat population over generations. The goal is to achieve an average rat weight of 50,000 grams, and the simulation tracks the evolution of the rat population's average weight over time. The simulation employs concepts such as population initialization, selection, breeding, mutation, and visualization.
+
+Source and Purpose
+This code is derived from the book "Impractical Python Projects" by Lee Vaughan. The super_rats.py project was modified and utilized as a learning experience to enhance understanding and proficiency in genetic algorithms.
+
+
+Dependencies
+This code uses the following Python libraries:
+
+time: Provides functions to measure runtime duration.
+random: Generates random numbers for various purposes.
+statistics: Performs statistical calculations on data.
+matplotlib.pyplot: Generates plots for visualizing simulation results.
+
+
+Running the Code
+1. Install the required dependencies, mainly matplotlib.
+
+2. Run the code. The simulation will display the initial population weights, fitness, and various generations of the population until the goal  is reached or the generation limit is reached.
+
+3. The matplotlib subplots will show the evolution of the average weight over generations for different maximum rat population sizes.
